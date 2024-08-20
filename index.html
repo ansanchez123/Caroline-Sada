@@ -6,6 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caroline Sada: Transforma tus finanzas</title>
     <style>
+        /* Estilos para el header */
+header {
+    display: flex;
+    font: Montserrat;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ebf2fc; /* Color de fondo */
+    color: #2746f9; /* Color del texto */
+}
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+
+}
+
+/* Estilo global para todos los textos */
+h1, h2, h3, h4, h5, h6, p, a, button, input {
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #2746f9;
+    text-decoration: none;
+    font-weight: bold;
+    font: Montserrat;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.search button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #0033cc;
+    cursor: pointer;
+    font: Montserrat;
+}
         body {
             font-family: Montserrat, sans-serif;
             margin: 0;
@@ -180,7 +253,78 @@
             height: auto;
         }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    color: #2746f9;
+}
+.hero-image {
+    flex: 1;
+     width: 55%;
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center;     /* Centra la imagen verticalmente */
+}
 
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+     max-width: 80%;  /* Ajusta el tamaño máximo de la imagen */
+    height: auto;    /* Mantén las proporciones de la imagen */
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 500px;
+    margin-left: 20px;
+    
+}
+
+.hero-text h2 {
+    
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+   
+}
+
+.hero-text form {
+    display: flex;
+    flex-direction: column;
+    f
+}
+
+.hero-text form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-text form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2746f9;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.hero-text form button:hover {
+    background-color: #ff0044;
+}
+
+        
         
     </style>
 </head>
@@ -202,28 +346,26 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="left-columna">
+   <section class="hero">
+        <div class="left-column">
             <img src="images/P1Mujer.svg" alt="Caroline Sada">
         </div>
         <div class="right-column">
-            <h1>Transforma tus finanzas con Caroline Sada</h1>
-            <p>Descubre cómo alcanzar la libertad financiera con el curso digital diseñado por Caroline Sada, la influencer financiera que ha ayudado a miles a tomar control de su futuro económico.</p>
-            <p>Obtén acceso exclusivo a contenido gratuito, ¡Únete!</p>
-
-            <div class="form-container">
-                <input type="text" placeholder="Nombre completo">
-                <input type="email" placeholder="Correo electrónico">
-                <button>Recibir más información</button>
-            </div>
-
+            <h1>Transforma tus finanzas</h1>
+            <h2>con Caroline Sada</h2>
+            <h3>Descubre cómo alcanzar la libertad financiera con el curso digital diseñado por Caroline Sada, la influencer financiera que ha ayudado a miles a tomar control de su futuro económico.</h3>
+            <form>
+                <input type="text" placeholder="Nombre completo" required="">
+                <input type="email" placeholder="Correo electrónico" required="">
+                <button type="submit">Recibir más información</button>
+            </form>
             <div class="social-icons">
-                <img src="images/facebook.svg" alt="Facebook">
-                <img src="images/instagram.svg" alt="Instagram">
-                <img src="images/twitter.svg" alt="Twitter">
+                <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
             </div>
         </div>
-    </div>
+    </section>
 
 <div class="container">
         <div class="left-column">
