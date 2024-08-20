@@ -4,349 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caroline Sada: Transforma tus finanzas</title>
-    <style>
-        /* Estilos para el header */
-header {
-    display: flex;
-    font: Montserrat;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #ebf2fc; /* Color de fondo */
-    color: #2746f9; /* Color del texto */
-}
-body {
-
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f4f8;
-
-}
-
-/* Estilo global para todos los textos */
-h1, h2, h3, h4, h5, h6, p, a, button, input {
-    font-family: 'Montserrat', sans-serif;
-}
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #2746f9;
-    text-decoration: none;
-    font-weight: bold;
-    font: Montserrat;
-}
-
-.search {
-    display: flex;
-    align-items: center;
-}
-
-.search input[type="text"] {
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-    margin-right: 10px;
-}
-
-.search button {
-    padding: 5px 10px;
-    border: none;
-    border-radius: 3px;
-    background-color: #ffffff;
-    color: #0033cc;
-    cursor: pointer;
-    font: Montserrat;
-}
-        body {
-            font-family: Montserrat, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-
-        .navbar {
-            background-color: white;
-            padding: 15px 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .navbar a {
-            text-decoration: none;
-            color: #333;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-
-        .navbar .logo {
-            font-weight: bold;
-            font-size: 24px;
-            color: #2049FF;
-        }
-
-        .container {
-            display: flex;
-            max-width: 1200px;
-            margin: 50px auto;
-            background-color: white;
-            border-radius: 20px;
-            overflow: hidden;
-        }
-
-        .left-columna {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color:  #2049FF;
-        }
-
-        .left-columna img {
-            max-width: 80%;
-            height: auto;
-        }
-
-        .right-column {
-            flex: 1;
-            padding: 40px;
-            background-color:  #2746f9;
-            color: white;
-            border-top-left-radius: 100px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .right-column h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .right-column p {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-
-        .form-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .form-container input {
-            width: 80%;
-            padding: 10px;
-            border-radius: 30px;
-            border: none;
-            font-size: 16px;
-            text-align: center;
-        }
-
-        .form-container button {
-            padding: 10px 20px;
-            border-radius: 30px;
-            border: none;
-            background-color: white;
-            color: #2049FF;
-            font-size: 16px;
-            cursor: pointer;
-            width: 50%;
-        }
-
-        .social-icons {
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-
-        .social-icons img {
-            width: 30px;
-            height: 30px;
-        }
-
- .container {
-            display: flex;
-            max-width: 1200px;
-            margin: 50px auto;
-            background-color: white;
-            border-radius: 20px;
-            overflow: hidden;
-        }
-
-        .left-column {
-            background-color: #2049FF;
-            padding: 40px;
-            flex: 1;
-            color: white;
-            border-top-right-radius: 100px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .left-column h1 {
-            font-size: 36px;
-            margin-bottom: 40px;
-            text-align: center;
-        }
-
-        .benefits {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .benefit-box {
-            background-color: white;
-            color: #2049FF;
-            border-radius: 20px;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .benefit-box h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .benefit-box p {
-            font-size: 16px;
-            margin: 0;
-        }
-
-        .right-column {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f0f8ff;
-        }
-
-        .right-column img {
-            max-width: 80%;
-            height: auto;
-        }
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
-    background-color: #ffffff;
-    color: #2746f9;
-}
-.hero-image {
-    flex: 1;
-     width: 55%;
-    display: flex;
-    justify-content: center; /* Centra la imagen horizontalmente */
-    align-items: center;     /* Centra la imagen verticalmente */
-}
-
-.hero-image img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-     max-width: 80%;  /* Ajusta el tamaño máximo de la imagen */
-    height: auto;    /* Mantén las proporciones de la imagen */
-}
-
-.hero-text {
-    flex: 1;
-    max-width: 500px;
-    margin-left: 20px;
-    
-}
-
-.hero-text h2 {
-    
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.hero-text p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-   
-}
-
-.hero-text form {
-    display: flex;
-    flex-direction: column;
-    f
-}
-
-.hero-text form input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-.hero-text form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2746f9;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-    
-}
-
-.hero-text form button:hover {
-    background-color: #ff0044;
-}
-
-        
-        
-    </style>
+    <title>Caroline Sada - Financial Influencer</title>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css"> <!-- Vinculamos el archivo CSS -->
 </head>
-
 <body>
-    
-    <header class="navbar">
+    <header>
         <div class="logo">
-            <img src="images/logo.svg" alt="Caroline Sada Logo"> <!-- Asegúrate de tener la imagen en la carpeta "images" --> </div>
+            <img src="images/Logo.svg" alt="Caroline Sada Logo"> <!-- Asegúrate de tener la imagen en la carpeta "images" -->
+        </div>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Content</a>
-            <a href="#">Contact</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Content</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
         <div class="search">
             <input type="text" placeholder="Search...">
             <button>🔍</button>
         </div>
-    </header>
-
-   <section class="hero">
+    </header>   
+    <section class="hero">
         <div class="left-column">
             <img src="images/P1Mujer.svg" alt="Caroline Sada">
         </div>
@@ -355,8 +35,8 @@ nav ul li a {
             <h2>con Caroline Sada</h2>
             <h3>Descubre cómo alcanzar la libertad financiera con el curso digital diseñado por Caroline Sada, la influencer financiera que ha ayudado a miles a tomar control de su futuro económico.</h3>
             <form>
-                <input type="text" placeholder="Nombre completo" required="">
-                <input type="email" placeholder="Correo electrónico" required="">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Correo electrónico" required>
                 <button type="submit">Recibir más información</button>
             </form>
             <div class="social-icons">
@@ -367,35 +47,86 @@ nav ul li a {
         </div>
     </section>
 
-<div class="container">
+ <div class="container">
         <div class="left-column">
             <h1>Beneficios de Registrarte:</h1>
             <div class="benefits">
-                <div class="benefit-box">
-                    <h2>Acceso a Contenido Exclusivo:</h2>
-                    <p>Recibe guías y herramientas financieras directamente en tu correo.</p>
-                </div>
-                <div class="benefit-box">
-                    <h2>Primero en Saber:</h2>
-                    <p>Sé el primero en enterarte de los próximos lanzamientos y ofertas especiales del curso.</p>
-                </div>
-                <div class="benefit-box">
-                    <h2>Soporte Personalizado:</h2>
-                    <p>Obtén respuestas a tus preguntas financieras a través de la comunidad.</p>
-                </div>
-                <div class="benefit-box">
-                    <h2>Webinars Exclusivos:</h2>
-                    <p>Participa en sesiones en vivo con Carolina Sada. Podrás aprender estrategias avanzadas de finanzas.</p>
-                </div>
+            <div class="benefit-box">
+                <h2>Acceso a Contenido Exclusivo:</h2>
+                <p>Recibe guías y herramientas financieras directamente en tu correo.</p>
             </div>
+            <div class="benefit-box">
+                <h2>Primero en Saber:</h2>
+                <p>Sé el primero en enterarte de los próximos lanzamientos y ofertas especiales del curso.</p>
+            </div>
+            <div class="benefit-box">
+                <h2>Soporte Personalizado:</h2>
+                <p>Obtén respuestas a tus preguntas financieras a través de la comunidad.</p>
+            </div>
+            <div class="benefit-box">
+                <h2>Webinars Exclusivos:</h2>
+                <p>Participa en sesiones en vivo con Carolina Sada. Podrás aprender estrategias avanzadas de finanzas.</p>
+            </div>
+        </div>
         </div>
         <div class="right-column">
             <img src="images/celular vector.svg" alt="Imagen">
         </div>
     </div>
 
-
     
-</body>
+<section class="testimonials">
+    <div class="testimonials-overlay", img src="images/testimonial.png">
+        <div class="testimonial-content">
+            <p>"El curso de Caroline me cambió la vida. Ahora entiendo cómo manejar mi dinero y estoy más cerca de alcanzar mis metas."</p>
+            <span>- Ana Muñoz</span>
+        </div>
+    </div>
+</section>
+<section class="subscription">
+    <div class="subscription-container">
+        <!-- Columna Izquierda -->
+        <div class="subscription-left">
+            <h3>¡No dejes pasar esta oportunidad!</h3>
+            <p>Automatiza tu camino hacia la libertad financiera.</p>
+            <p> ¡Regístrate ahora y comienza tu viaje hacia una vida sin preocupaciones económicas!</p>
+            <form class="subscription-form">
+                <input type="email" placeholder="Correo electrónico">
+                <button>Suscribirme</button>
+            </form>
+        </div>
+        
+        <!-- Columna Derecha -->
+        <div class="subscription-right">
+            <img src="images/fecha vector.svg" alt="Imagen de Suscripción">
+        </div>
+    </div>
+</section>
+<footer style="display: flex; justify-content: space-between; padding: 20px; background-color: #ebf2fc; border-top: 1px solid #ddd;">
+  <!-- Columna Izquierda -->
+  <div style="flex: 1;">
+    <h2><strong>Háblanos</strong></h2>
+    <p>Teléfono: +593 9 442601924</p>
+    <p>Correo: info@carolinesada.com</p>
+    <p><strong>Guayaquil, Guayas - Ecuador</strong></p>
+    
+  </div>
 
-  </html>
+  <!-- Columna Derecha -->
+  <div style="flex: 1; text-align: left; background-color: #007BFF; border-top-left-radius: 10px; padding: 10px; color: #fff;">
+    <h2 style="font-weight: bold;"><strong>Contáctanos</strong></h2>
+    <div style="margin-top: 10px;">
+      <a href="https://www.instagram.com" target="_blank" style="margin-right: 10px;">
+        <img src="images/instagram.svg" alt="Instagram" style="width: 24px; height: 24px;">
+      </a>
+      <a href="https://www.facebook.com" target="_blank" style="margin-right: 10px;">
+        <img src="images/facebook.svg" alt="Facebook" style="width: 24px; height: 24px;">
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="images/twitter.svg" alt="Twitter" style="width: 24px; height: 24px;">
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
