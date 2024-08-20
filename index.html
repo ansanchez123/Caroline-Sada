@@ -116,6 +116,72 @@
             width: 30px;
             height: 30px;
         }
+
+ .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: white;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .left-column {
+            background-color: #2049FF;
+            padding: 40px;
+            flex: 1;
+            color: white;
+            border-top-right-radius: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .left-column h1 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .benefits {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .benefit-box {
+            background-color: white;
+            color: #2049FF;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .benefit-box h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .benefit-box p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .right-column {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f8ff;
+        }
+
+        .right-column img {
+            max-width: 80%;
+            height: auto;
+        }
+
+
+        
     </style>
 </head>
 
@@ -152,6 +218,37 @@
             </div>
         </div>
     </div>
+
+<div class="container">
+        <div class="left-column">
+            <h1>Beneficios de Registrarte:</h1>
+            <div class="benefits">
+                <div class="benefit-box">
+                    <h2>Acceso a Contenido Exclusivo:</h2>
+                    <p>Recibe guías y herramientas financieras directamente en tu correo.</p>
+                </div>
+                <div class="benefit-box">
+                    <h2>Primero en Saber:</h2>
+                    <p>Sé el primero en enterarte de los próximos lanzamientos y ofertas especiales del curso.</p>
+                </div>
+                <div class="benefit-box">
+                    <h2>Soporte Personalizado:</h2>
+                    <p>Obtén respuestas a tus preguntas financieras a través de la comunidad.</p>
+                </div>
+                <div class="benefit-box">
+                    <h2>Webinars Exclusivos:</h2>
+                    <p>Participa en sesiones en vivo con Carolina Sada. Podrás aprender estrategias avanzadas de finanzas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <img src="image.png" alt="Imagen">
+        </div>
+    </div>
+
+
+
+    
 </body>
 
 </html>
