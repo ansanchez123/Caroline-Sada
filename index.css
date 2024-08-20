@@ -1,4 +1,7 @@
- .u-section-1 {
+meta {
+    display: none;
+}
+.u-section-1 {
   background-image: none;
   min-height: 663px;
 }
