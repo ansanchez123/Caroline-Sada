@@ -815,6 +815,33 @@
   }
 }
 
+/* Base styles for mobile devices */
+body {
+  font-size: 16px; /* Base font size */
+}
+
+header, .u-header, .u-nav, .u-image {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.u-header {
+  padding: 10px;
+}
+
+.u-nav-container {
+  display: block;
+}
+
+.u-search-input, .u-btn, .u-form-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.u-section-1, .u-section-2, .u-section-3, .u-section-4, .u-section-5 {
+  padding: 20px;
+}
+
 /* Responsive layout for larger screens */
 @media(min-width: 768px) {
   .u-container-style {
