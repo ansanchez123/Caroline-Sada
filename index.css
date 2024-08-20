@@ -1,4 +1,8 @@
- .u-section-1 {
+ .u-image-1 {
+        float: right;
+        margin-left: 10px;
+    }
+.u-section-1 {
   background-image: none;
   min-height: 663px;
 }
