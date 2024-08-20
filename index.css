@@ -814,3 +814,39 @@
     margin-right: calc(((100% - 340px) / 2));
   }
 }
+
+/* Responsive layout for larger screens */
+@media(min-width: 768px) {
+  .u-container-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .u-container-layout-1 {
+    flex: 1;
+  }
+
+  .u-image {
+    max-width: 100%;
+  }
+}
+
+@media(min-width: 1024px) {
+  .u-section-1 {
+    padding: 40px;
+  }
+
+  .u-header {
+    padding: 20px;
+  }
+
+  .u-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .u-search-input {
+    width: auto;
+  }
+}
