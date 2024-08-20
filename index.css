@@ -1,9 +1,9 @@
-element.style {
-    overflow-x: hidden;
+/* For mobile phones: */
+[class*="u-"] {
+  width: 100%;
 }
-meta {
-    display: none;
-}
+
+
 .u-section-1 {
   background-image: none;
   min-height: 663px;
@@ -81,17 +81,19 @@ meta {
   margin: -555px auto 1px calc(((100% - 1140px) / 2)  + 21px);
 }
 
-@media (max-width: 1199px) {
+@media only screen and(min-width: 1199px) {
   .u-section-1 .u-group-1 {
     --radius: 10px;
     --bottom-right-radius: 100px;
     height: auto;
+      
   }
 
   .u-section-1 .u-group-2 {
     margin-right: 119px;
     margin-left: 0;
     height: auto;
+     
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -108,7 +110,7 @@ meta {
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (min-width: 991px) {
   .u-section-1 .u-container-layout-2 {
     padding-right: 0;
   }
@@ -122,7 +124,7 @@ meta {
   }
 }
 
-@media (max-width: 767px) {
+@media only screen and (min-width: 767px) {
    .u-section-1 {
     min-height: 551px;
   }
@@ -151,7 +153,7 @@ meta {
   }
 }
 
-@media (max-width: 575px) {
+@media only screen and (max-width: 575px) {
    .u-section-1 {
     min-height: 546px;
   }
@@ -341,7 +343,7 @@ meta {
   margin: -600px calc(((100% - 1140px) / 2)) 60px auto;
 }
 
-@media (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
   .u-section-2 .u-group-1 {
     --bottom-left-radius: 100px;
     width: 637px;
@@ -364,7 +366,7 @@ meta {
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (min-width: 991px) {
   .u-section-2 .u-group-1 {
     margin-left: calc(((100% - 720px) / 2));
   }
@@ -379,7 +381,7 @@ meta {
   }
 }
 
-@media (max-width: 767px) {
+@media only screen and  (min-width: 767px) {
    .u-section-2 {
     min-height: 835px;
   }
@@ -424,7 +426,7 @@ meta {
   }
 }
 
-@media (max-width: 575px) {
+@media only screen and (min-width: 575px) {
    .u-section-2 {
     min-height: 609px;
   }
@@ -494,7 +496,7 @@ meta {
   margin: -40px auto 54px 195px;
 }
 
-@media (max-width: 1199px) {
+@media only screen and (min-width: 1199px) {
   .u-section-3 .u-text-1 {
     margin-right: 95px;
     margin-left: 181px;
@@ -502,14 +504,14 @@ meta {
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (min-width: 991px) {
   .u-section-3 .u-text-1 {
     margin-right: 0;
     margin-left: 56px;
   }
 }
 
-@media (max-width: 767px) {
+@media only screen and (min-width: 767px) {
   .u-section-3 .u-text-1 {
     font-size: 1.875rem;
     margin-left: 0;
@@ -517,7 +519,7 @@ meta {
   }
 }
 
-@media (max-width: 575px) {
+@media only screen and (min-width: 575px) {
   .u-section-3 .u-text-1 {
     font-size: 1.5rem;
     width: 340px;
@@ -584,7 +586,7 @@ meta {
   margin: -46px 0 0 92px;
 }
 
-@media (max-width: 1199px) {
+@media only screen and (min-width: 1199px) {
   .u-section-4 .u-sheet-1 {
     min-height: 1000px;
   }
@@ -606,7 +608,7 @@ meta {
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
     min-height: 1325px;
   }
@@ -630,7 +632,7 @@ meta {
   }
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
     min-height: 1697px;
   }
@@ -660,7 +662,7 @@ meta {
   }
 }
 
-@media (max-width: 575px) {
+@media only screen and (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
     min-height: 1634px;
   }
@@ -731,7 +733,7 @@ meta {
   margin: -581px calc(((100% - 1140px) / 2)) 58px auto;
 }
 
-@media (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
   .u-section-5 .u-group-1 {
     --bottom-left-radius: 100px;
     width: calc(((100% - 940px) / 2) + 636px);
@@ -743,7 +745,7 @@ meta {
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   .u-section-5 .u-group-1 {
     width: calc(((100% - 720px) / 2) + 636px);
   }
@@ -753,7 +755,7 @@ meta {
   }
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .u-section-5 .u-group-1 {
     width: calc(((100% - 540px) / 2) + 540px);
   }
@@ -784,7 +786,7 @@ meta {
   }
 }
 
-@media (max-width: 575px) {
+@media0only screen and (max-width: 575px) {
    .u-section-5 {
     min-height: 487px;
   }
@@ -849,7 +851,7 @@ header, .u-header, .u-nav, .u-image {
 }
 
 /* Responsive layout for larger screens */
-@media(min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .u-container-style {
     display: flex;
     flex-direction: row;
@@ -865,7 +867,7 @@ header, .u-header, .u-nav, .u-image {
   }
 }
 
-@media(min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .u-section-1 {
     padding: 40px;
   }
